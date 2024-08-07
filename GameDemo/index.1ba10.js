@@ -21,6 +21,7 @@ System.register(["./application.82a2d.js"], function (_export, _context) {
       }).then(function () {
         return application.start();
       })["catch"](function (err) {
+        console.log("加载失败")
         console.error(err);
       });
     }
