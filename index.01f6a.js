@@ -1,4 +1,4 @@
-System.register(["./application.82a2d.js"], function (_export, _context) {
+System.register(["./application.03d2b.js"], function (_export, _context) {
   "use strict";
 
   var Application, canvas, $p, bcr, application;
@@ -21,7 +21,6 @@ System.register(["./application.82a2d.js"], function (_export, _context) {
       }).then(function () {
         return application.start();
       })["catch"](function (err) {
-        console.log("加载失败")
         console.error(err);
       });
     }
